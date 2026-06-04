@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Get current date for filename
+filename="log_$(date +%F).txt"
+
+#Get current date and time for log content
+
+current_time=$(date)
+
+#Create file and write content
+
+echo "Script executed  at: $current_time" > "$filename"
+
+echo "log file created: $filename"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+filename="file5"
+
+if [ -f "$filename" ]; then
+echo "$filename is exists"
+else
+touch "$filename"
+echo "$filename created"
+fi
+

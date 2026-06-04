@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in {1..5}
+do
+touch "file$i"
+echo "file$i created"
+done
