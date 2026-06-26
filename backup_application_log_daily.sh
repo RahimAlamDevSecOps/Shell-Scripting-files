@@ -3,7 +3,7 @@
 log_dir="/var/log/myapp"
 backup_dir="backup/logs"
 
-date=$(date +%y-%m-%d)
+date=$(date +%Y-%m-%d)
 
 mkdir -p "$backup_dir"
 
